@@ -3,12 +3,48 @@ entries:
   codebrewerchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-03T14:59:35.102452884+05:30"
+    created: "2022-09-03T23:11:22.566659859+05:30"
     description: A Helm chart for Kubernetes
-    digest: 755e397a9cdc391d6a60ca01c93f3357867315910499c2ee8e2f675e1d604f2d
+    digest: cfe11e27a89f6840512c6fcb10db420e17157225bc2af19e49c0a6c0a17475f8
     name: codebrewerchart
     type: application
     urls:
     - codebrewerchart-0.1.0.tgz
     version: 0.1.0
-generated: "2022-09-03T14:59:35.101916182+05:30"
+  erpnext:
+  - apiVersion: v2
+    appVersion: v14.0.3
+    created: "2022-09-03T23:11:22.577302431+05:30"
+    dependencies:
+    - alias: redis-cache
+      condition: redis-cache.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.4.0
+    - alias: redis-queue
+      condition: redis-queue.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.4.0
+    - alias: redis-socketio
+      condition: redis-socketio.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.4.0
+    - condition: mariadb.enabled
+      name: mariadb
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.3.3
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.0.3
+    description: Kubernetes Helm Chart for the latest stable ERPNext branch
+    digest: e16c2a4a292ae3b73a52ae16b30307c233577ecde6f6c5d3e655f7203e56f70e
+    icon: https://raw.githubusercontent.com/frappe/design/master/logos/logo-2018/erpnext-logo-blue.svg
+    name: erpnext
+    type: application
+    urls:
+    - erpnext-5.0.13.tgz
+    version: 5.0.13
+generated: "2022-09-03T23:11:22.566283949+05:30"
