@@ -273,7 +273,7 @@ jobs:
     installApps:
     - "erpnext"
     dbType: "mariadb"
-    backoffLimit: 0
+    backoffLimit: 2
     resources: {}
     nodeSelector: {}
     tolerations: []
