@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: docker.io/brjnis/test
+  tag: "master_2022-09-02_2ddde1a"
   pullPolicy: IfNotPresent
-  # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+  # Overrides the image tag whose default is the chart appVersion.:
 
 imagePullSecrets: []
 nameOverride: ""
