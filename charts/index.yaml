@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  codebrewerchart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-09-03T14:59:35.102452884+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 755e397a9cdc391d6a60ca01c93f3357867315910499c2ee8e2f675e1d604f2d
+    name: codebrewerchart
+    type: application
+    urls:
+    - codebrewerchart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-09-03T14:59:35.101916182+05:30"
