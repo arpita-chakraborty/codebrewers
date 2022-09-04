@@ -11,8 +11,8 @@
 nginx:
   replicaCount: 1
   image:
-    repository: frappe/erpnext-nginx
-    tag: v14.0.3
+    repository: brjnis/erpnext-nginx
+    tag: latest_2022-09-04_52efa5f
     pullPolicy: IfNotPresent
   # config: |
   #   # custom template /etc/nginx/templates/default.conf.template
@@ -45,8 +45,8 @@ nginx:
 
 worker:
   image:
-    repository: frappe/erpnext-worker
-    tag: v14.0.3
+    repository: brjnis/erpnext-worker
+    tag: latest_2022-09-04_52efa5f
     pullPolicy: IfNotPresent
 
   gunicorn:
