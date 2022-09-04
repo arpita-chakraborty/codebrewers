@@ -3,7 +3,7 @@ entries:
   codebrewerchart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-09-04T00:55:37.899065033+05:30"
+    created: "2022-09-04T12:37:06.392523447Z"
     description: A Helm chart for Kubernetes
     digest: cfe11e27a89f6840512c6fcb10db420e17157225bc2af19e49c0a6c0a17475f8
     name: codebrewerchart
@@ -14,7 +14,7 @@ entries:
   erpnext:
   - apiVersion: v2
     appVersion: v14.0.3
-    created: "2022-09-04T00:55:37.910398818+05:30"
+    created: "2022-09-04T12:37:06.444364187Z"
     dependencies:
     - alias: redis-cache
       condition: redis-cache.enabled
@@ -40,11 +40,11 @@ entries:
       repository: https://charts.bitnami.com/bitnami
       version: 11.0.3
     description: Kubernetes Helm Chart for the latest stable ERPNext branch
-    digest: a6a42e5aa2b546944afc78cbb3d8fb8af60cb987d29c40bebf4e7fbf48a24064
+    digest: 341523625462899d61075b572d20393cee40a315f3df90c8ab15e30ba68c3cc0
     icon: https://raw.githubusercontent.com/frappe/design/master/logos/logo-2018/erpnext-logo-blue.svg
     name: erpnext
     type: application
     urls:
     - erpnext-5.0.13.tgz
     version: 5.0.13
-generated: "2022-09-04T00:55:37.898657227+05:30"
+generated: "2022-09-04T12:37:06.391078228Z"
