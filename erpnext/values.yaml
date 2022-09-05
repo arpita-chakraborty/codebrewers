@@ -218,7 +218,7 @@ socketio:
 
 persistence:
   worker:
-    enabled: true
+    enabled: false
     # existingClaim: ""
     size: 8Gi
     storageClass: "nfs"
