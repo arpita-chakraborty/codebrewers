@@ -12,7 +12,7 @@ nginx:
   replicaCount: 1
   image:
     repository: brjnis/erpnext-nginx
-    tag: latest_2022-10-04_f79c078
+    tag: latest_2022-10-04_2f77646
     pullPolicy: IfNotPresent
   # config: |
   #   # custom template /etc/nginx/templates/default.conf.template
@@ -46,7 +46,7 @@ nginx:
 worker:
   image:
     repository: brjnis/erpnext-worker
-    tag: latest_2022-10-04_f79c078
+    tag: latest_2022-10-04_2f77646
     pullPolicy: IfNotPresent
 
   gunicorn:
